@@ -50,10 +50,10 @@ CSS INDEX
 :root {
   --black: #000;
   --white: #fff;
-  --ul-primary: #2B4DFF;
-  --ul-secondary: #731BB7;
+  --ul-primary: rgb(38, 141, 148);
+  --ul-secondary: rgb(188, 227, 38);
   --ul-c3: #F0F3FF;
-  --ul-c4: #0A165E;
+  --ul-c4: #2a323e;
   --ul-c5: #635AD9;
   --ul-black: #0F0D1D;
   --ul-gray: #726B7D;
@@ -346,7 +346,7 @@ button {
   gap: 8px;
   padding: 0 clamp(18px, 1.31vw, 25px);
   height: clamp(45px, 2.73vw, 52px);
-  background: linear-gradient(90deg, #2B4DFF 0%, #C700B1 100%);
+  background: linear-gradient(90deg, #2B4DFF 0%, rgb(38, 141, 148) 100%);
   border-radius: 100px;
   color: var(--white);
   font-weight: 700;
@@ -364,14 +364,14 @@ button {
   z-index: -1;
   top: 0;
   left: 0;
-  background: linear-gradient(90deg, #C700B1 0%, #2B4DFF 100%);
+  background: linear-gradient(90deg, rgb(38, 141, 148) 0%, #2B4DFF 100%);
   transition: 0.4s ease;
 }
 .ul-btn i {
   font-size: 12px;
 }
 .ul-btn--2 i {
-  padding: 0;
+  padding: 20px;
   aspect-ratio: 1/1;
 }
 
@@ -2656,7 +2656,7 @@ button {
 }
 .ul-work-process-single-index {
   color: var(--white);
-  background: linear-gradient(90deg, #3C72FC 0%, #C700B1 100%);
+  background: linear-gradient(90deg, #3C72FC 0%, rgb(38, 141, 148) 100%);
   height: clamp(35px, 2.1vw, 40px);
   aspect-ratio: 1/1;
   border-radius: 999px;
@@ -2824,7 +2824,7 @@ button {
   aspect-ratio: 1/1;
   left: calc(0% - clamp(30px, 15.19vw, 289px));
   bottom: -30%;
-  background: linear-gradient(90deg, #3C72FC 32.06%, #C700B1 158.17%);
+  background: linear-gradient(90deg, #3C72FC 32.06%, rgb(38, 141, 148) 158.17%);
   border: 1px solid #3C72FC;
   box-shadow: 0px 28px 23px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
@@ -2842,11 +2842,11 @@ button {
   box-shadow: none;
 }
 .ul-services-slider .swiper-slide:nth-child(even) .ul-service {
-  background: linear-gradient(180deg, #3C72FC 0%, #C700B1 100%);
+  background: linear-gradient(180deg, #3C72FC 0%, #7dd444 100%);
 }
 
 .ul-service {
-  background: linear-gradient(180deg, #8903F7 0%, #FF7C54 100%);
+  background: linear-gradient(180deg, #03f7f7 0%, #eeff54 100%);
   border-radius: 20px;
   position: relative;
   z-index: 1;
@@ -3034,7 +3034,7 @@ button {
   z-index: -1;
   width: clamp(133px, 18.71vw, 356px);
   aspect-ratio: 356/305;
-  background: linear-gradient(180deg, #C700B1 0%, #3C72FC 100%);
+  background: linear-gradient(180deg, rgb(38, 141, 148) 0%, #3C72FC 100%);
   opacity: 0.06;
   border-top-left-radius: 999px;
 }
@@ -3222,7 +3222,7 @@ button {
   z-index: -1;
   opacity: 0;
   transition: 0.4s ease;
-  background: linear-gradient(0deg, #3C72FC 0%, #C700B1 100%);
+  background: linear-gradient(0deg, #3C72FC 0%, rgb(38, 141, 148) 100%);
   transform: rotate(180deg);
 }
 .ul-case-study-item-btn:hover {
@@ -3264,7 +3264,7 @@ button {
 }
 
 .ul-contact-form-wrapper {
-  background: linear-gradient(180deg, #3C72FC 0%, #C700B1 100%);
+  background: linear-gradient(180deg, #3C72FC 0%, rgb(38, 141, 148) 100%);
   border-radius: 20px;
   padding: clamp(25px, 3.15vw, 60px);
 }
@@ -3527,7 +3527,7 @@ button {
   position: absolute;
   top: clamp(10px, 0.84vw, 16px);
   left: clamp(10px, 0.84vw, 16px);
-  background: linear-gradient(180deg, #C700B1 4.76%, #3C72FC 168.25%);
+  background: linear-gradient(180deg, rgb(38, 141, 148) 4.76%, #3C72FC 168.25%);
   border-radius: 6px;
   display: inline-block;
   overflow: hidden;
@@ -4134,10 +4134,12 @@ button {
   position: relative;
 }
 .ul-footer-widget-links > *::before {
-  content: "\f132";
-  font-family: flaticon_digicom !important;
+  font-family: "Font Awesome 7 Free";  /* ← update this name */
+    font-weight: 900;
+    content: "\f0c1";
+  /* font-family: flaticon_digicom !important; */
   font-style: normal;
-  font-weight: normal !important;
+  /* font-weight: normal !important; */
   font-variant: normal;
   text-transform: none;
   line-height: 1;
@@ -4616,7 +4618,7 @@ button {
   max-width: 816px;
 }
 .ul-features-grid .row .col:nth-child(even) .ul-service {
-  background: linear-gradient(180deg, #3C72FC 0%, #C700B1 100%);
+  background: linear-gradient(180deg, #3C72FC 0%, rgb(38, 141, 148) 100%);
 }
 
 .ul-features-2 .ul-section-heading {
@@ -4910,7 +4912,7 @@ button {
   font-weight: 700;
   font-size: clamp(25px, 2.63vw, 50px);
   line-height: 0.85;
-  background: linear-gradient(106.33deg, #2AD3F8 6.55%, #C700B1 89.82%);
+  background: linear-gradient(106.33deg, #2AD3F8 6.55%, rgb(38, 141, 148) 89.82%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -5220,7 +5222,7 @@ button {
 }
 .ul-inner-testimony-icon {
   font-size: clamp(37px, 2.1vw, 40px);
-  background: linear-gradient(106.33deg, #2AD3F8 6.55%, #C700B1 89.82%);
+  background: linear-gradient(106.33deg, #2AD3F8 6.55%, rgb(38, 141, 148) 89.82%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -5272,7 +5274,7 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, #2B4DFF 0%, #C700B1 100%);
+  background: linear-gradient(90deg, #2B4DFF 0%, rgb(38, 141, 148) 100%);
   border-radius: 999px;
   z-index: -1;
   opacity: 0;
@@ -5288,7 +5290,7 @@ button {
   font-size: 10px;
 }
 .ul-service-details-sidebar-cta {
-  background: linear-gradient(323deg, #3C72FC 0%, #C700B1 100%);
+  background: linear-gradient(323deg, #3C72FC 0%, rgb(38, 141, 148) 100%);
   border-radius: 16px;
   text-align: center;
   padding: clamp(20px, 2.1vw, 40px) clamp(15px, 1.58vw, 30px);
@@ -5504,7 +5506,7 @@ button {
 }
 
 .ul-team-member {
-  background: linear-gradient(180deg, #C700B1 0%, #3C72FC 100%);
+  background: linear-gradient(180deg, rgb(38, 141, 148) 0%, #3C72FC 100%);
   border-radius: 20px;
   overflow: hidden;
   border-radius: clamp(15px, 1.05vw, 20px);
@@ -5602,7 +5604,7 @@ button {
   position: sticky;
   top: clamp(85px, 6.04vw, 115px);
   aspect-ratio: 470/543;
-  background: linear-gradient(180deg, #C700B1 0%, #3C72FC 100%);
+  background: linear-gradient(180deg, rgb(38, 141, 148) 0%, #3C72FC 100%);
 }
 .ul-team-details-img img {
   width: 100%;
